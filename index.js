@@ -28,9 +28,9 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
         const nameType = document.createElement('span')
         nameType.appendChild(document.createTextNode(type.types[j].type.name))
         nameType.style.backgroundColor = color(type.types[j].type.name)
-        nameType.style.borderRadius = '5px'
+        nameType.style.borderRadius = '4px'
         nameType.style.margin = '2px'
-        nameType.style.padding = '5px'
+        nameType.style.padding = '4px'
 
         box.querySelector('#pokemon-type').appendChild(nameType)
       }
